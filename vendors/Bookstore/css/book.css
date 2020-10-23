@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,700&display=swap');
+html {
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/*---------------------navbar section1--------------------------*/
+
+.items:hover {
+    background-color: #E8FAFF;
+}
+
+.nav-link {
+    font-weight: 900x !important;
+}
+
+
+/*---------------------home section2---------------------------*/
+
+.d-block {
+    height: 60vh;
+}
+
+.item1-btn {
+    background-color: #fd954e;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    text-decoration: none;
+    font-size: 20px;
+    width: 30%;
+    height: 100%;
+}
+
+.item1-btn:hover {
+    background-color: #750903;
+    color: #fd954e;
+    font-size: 20px;
+    border-radius: 15px;
+}
+
+
+/*---------------------download section---------------------------*/
+
+hr {
+    border-top: 0.5px solid #fd954e;
+    width: 50%;
+    text-align: center;
+    margin: 0.2rem auto 0.9rem auto;
+}
+
+
+/*---------------------Available-books section---------------------------*/
+
+.container-fluid img {
+    width: 250px;
+    height: 250px;
+    margin: 5px;
+    border-radius: 7px;
+    transition: all 2s;
+    cursor: pointer;
+}
+
+.container-fluid img:hover {
+    transform: scale(1.1);
+}
+
+.container-fluid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #fd954e;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.container-fluid2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.new-arg {
+    background-color: #fd954e;
+}
+
+.container-fluid2 img {
+    width: 250px;
+    height: 250px;
+    margin: 5px;
+    border-radius: 7px;
+    transition: all 2s;
+    cursor: pointer;
+}
+
+.grow {
+    flex-grow: 2;
+}
+
+.item-btn:hover {
+    background-color: #750903;
+    color: white;
+    border: none;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+h3 {
+    color: #fd954e;
+    font-size: 20px;
+    text-align: center;
+}
+
+.textbox {
+    background-color: #e6e4ff;
+    padding: 5px 5px;
+    margin-top: 1rem;
+}
+
+.card {
+    border: none;
+    margin-bottom: 1rem;
+}
+
+.py-3 {
+    font-weight: 900 !important;
+    font-family: 'Montserrat', sans-serif !important;
+    font-size-adjust: 60px;
+}
+
+.heading-line {
+    height: 3px;
+    width: 15%;
+    background: #fd954e;
+}
+
+
+/*---------------------testimony section---------------------------*/
+
+
+/*---------------------footer section---------------------------*/
+
+footer {
+    background-color: #750903;
+    color: white;
+    padding-top: 2rem;
+}
+
+.foot-line {
+    width: 100%;
+}
+
+.map {
+    margin-left: 5em;
+}
+
+.foot-p {
+    color: white;
+    margin-top: 1%;
+    font-size: 18px;
+    text-align: center;
+}
+
+@media screen and (max-width: 992px) {
+    .display-none {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .new-arg {
+        display: none;
+    }
+}

@@ -1,0 +1,574 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>BookStore-e-commerce</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- font awesome CSS -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <!-- google fonts CSS -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,700&display=swap" rel="stylesheet">
+    <!-- animate CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+    <!-- main CSS -->
+    <link rel="stylesheet" href="css/book.css">
+</head>
+
+<body>
+    <!----------------------------------------navbar section----------------------------------------->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+        <div class="pr-5 pl-5">
+            <img src="images/logo (3).png " alt=" " class="img-fluid">
+        </div>
+        <ul class="navbar-nav">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <span style=" color: #fd954e; ">Join Bookish Club</span>
+                </a>
+                <div class="dropdown-menu text-center" aria-labelledby="navbarDropdown">
+                    <button class="btn btn-outline-dark my-2 my-sm-0 mb-1 text-center" type="submit">  
+                        <span style=" color: #fd954e; ">Login into Account</span>
+                    </button>
+                    <button class="btn btn-outline-dark my-2 my-sm-0 mb-1 text-center" type="submit">  
+                        <span style=" color: #fd954e; ">Create An Account</span>
+                    </button>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <span style=" color: #fd954e; ">Make PayMent</span>
+                </a>
+                <div class="dropdown-menu text-center" aria-labelledby="navbarDropdown">
+                    <button class="btn btn-outline-dark my-2 my-sm-0 text-center" type="submit">  
+                        <span style=" color: #fd954e; ">Use Paypal</span>
+                    </button>
+                    <button class="btn btn-outline-dark my-2 my-sm-0 text-center" type="submit">  
+                        <span style=" color: #fd954e; ">Use  Other</span>
+                    </button>
+                </div>
+            </li>
+        </ul>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="nav">
+            <ul class="navbar-nav bg-light m-0 ml-lg-auto p-3 p-lg-0">
+                <li class="d-inline d-lg-none">
+                    <button data-toggle="collapse" data-target="#nav" class="close float-right">&times;</button>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <button type="button" class="btn btn-outline-secondary btn-sm" style="border: 3px solid #fd954e;">Home
+                        </button>
+                    </a>
+                </li>
+                <li class="nav-item items">
+                    <a class="nav-link text-truncate" style="color: #fd954e;" href="#spy1">Available</a>
+                </li>
+                <li class="nav-item items">
+                    <a class="nav-link text-truncate" style="color: #fd954e;" href="#spy2">New Arrival </a>
+                </li>
+                <li class="nav-item items">
+                    <a class="nav-link text-truncate" style="color: #fd954e;" href="#spy3">Best Seller</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link sign-up " href=" # " style="background-color: #fd954e; color: white; ">Contacts</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0 ">
+                <input class="form-control ml-2 mr-sm-2 " type="search " placeholder="Search " aria-label="Search ">
+                <button class="btn btn-outline-dark ml-2 my-2 my-sm-0 " type="submit ">  <span style=" color: #fd954e; ">Search For Books</span></button>
+            </form>
+        </div>
+    </nav>
+    <!-------------------------------------home section----------------------------------------------->
+    <section class="container-fluid1 carousel ">
+        <div id="carouselExampleCaptions " class="carousel slide " data-ride="carousel ">
+            <ol class="carousel-indicators ">
+                <li data-target="#carouselExampleCaptions " data-slide-to="0 " class="active "></li>
+                <li data-target="#carouselExampleCaptions " data-slide-to="1 "></li>
+                <li data-target="#carouselExampleCaptions " data-slide-to="2 "></li>
+                <li data-target="#carouselExampleCaptions " data-slide-to="3 "></li>
+            </ol>
+            <div class="carousel-inner ">
+                <div class="carousel-item active ">
+                    <img src="images/carousel2.jpeg " class="d-block w-100 " alt="... ">
+                    <div class="carousel-caption d-none d-md-block ">
+                        <h1><span style="color:#fd954e ">WELCOME TO BOOKISH</span></h1>
+                        <div class=" text-center ">
+                            <button class="item1-btn ml-2 my-2 my-sm-0 " type="submit ">
+                            JOIN NOW
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item ">
+                    <img src="images/carousel.jpg " class="d-block w-100 " alt="... ">
+                    <div class="carousel-caption d-none d-md-block ">
+                        <h2><span style="color:#fd954e ">With Bookish, You can Proofread and Buy Books</span></h2>
+                        <div class=" text-center ">
+                            <button class="item1-btn ml-2 my-2 my-sm-0 " type="submit "> 
+                              MORE DETAILS
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item ">
+                    <img src="images/carousel4.jpeg " class="d-block w-100 " alt="... ">
+                    <div class="carousel-caption d-none d-md-block ">
+                        <h2><span style="color:#fd954e ">You Can Also Read Online And Offline</span></h2>
+                        <div class=" text-center ">
+                            <button class="item1-btn ml-2 my-2 my-sm-0 " type="submit "> 
+                              MORE DETAILS
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item ">
+                    <img src="images/carousel5.jpeg " class="d-block w-100 " alt="... ">
+                    <div class="carousel-caption d-none d-md-block ">
+                        <h2><span style="color:#fd954e ">So Are You Bookish Enough?</span></h2>
+                        <div class=" text-center ">
+                            <button class="item1-btn ml-2 my-2 my-sm-0 " type="submit ">
+                                BUY NOW
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev " href="#carouselExampleCaptions " role="button " data-slide="prev ">
+                <span class="carousel-control-prev-icon " aria-hidden="true "></span>
+                <span class="sr-only ">Previous</span>
+            </a>
+            <a class="carousel-control-next " href="#carouselExampleCaptions " role="button " data-slide="next ">
+                <span class="carousel-control-next-icon " aria-hidden="true "></span>
+                <span class="sr-only ">Next</span>
+            </a>
+        </div>
+    </section>
+
+    <!-----------------------------------------------Available section---------------------------------------->
+    <section class="available-books mt-0 ">
+        <div class="text-center py-5 ">
+            <h2 class="animate__animated animate__backInLeft animate_delay-0.5s py-3 ">Now Available</h2>
+            <div class="mx-auto heading-line "></div>
+        </div>
+        <div class="container-fluid ">
+
+            <div>
+                <img src="images/beggar-of-kuraku.jpg " alt="kuraku " width="50% " class="img-fluid ">
+                <h3><span style="color: yellow">Fiction</span></h3>
+                <div class=" text-center ">
+                    <button class="item-btn btn-dark ml-2 my-2 my-sm-0 " type="submit ">#5000 
+                        <span style=" color: #fd954e; ">Buy Now</span>
+                    </button>
+                </div>
+            </div>
+
+            <div>
+                <img src="images/children-of-virture.jpg " alt="child-of-vulture " width="50% " class="img-fluid ">
+                <h3><span style="color: yellow">Fiction</span></h3>
+                <div class=" text-center ">
+                    <button class="item-btn btn-dark ml-2 my-2 my-sm-0 " type="submit ">#2000 
+                        <span style=" color: #fd954e; ">Buy Now</span>
+                    </button>
+                </div>
+            </div>
+
+            <div>
+                <img src="images/christian.jpg " alt="christian " width="50% " class="img-fluid ">
+                <h3><span style="color: yellow">Christianity</span></h3>
+                <div class=" text-center ">
+                    <button class="item-btn btn-dark ml-2 my-2 my-sm-0 " type="submit ">#1500 
+                        <span style=" color: #fd954e; ">Buy Now</span>
+                    </button>
+                </div>
+            </div>
+
+            <div>
+                <img src="images/crazy-ideas.jpeg " alt="crazy-ideas " width="50% " class="img-fluid ">
+                <h3><span style="color: yellow">Journey</span></h3>
+                <div class=" text-center ">
+                    <button class="item-btn btn-dark ml-2 my-2 my-sm-0 " type="submit ">#1000 
+                        <span style=" color: #fd954e; ">Buy Now</span>
+                    </button>
+                </div>
+            </div>
+
+            <div>
+                <img src="images/Digital-Wealth.jpg " alt="Digital " width=" 50% " class="img-fluid ">
+                <h3><span style="color: yellow">Fantasy</span></h3>
+                <div class=" text-center ">
+                    <button class="item-btn btn-dark ml-2 my-2 my-sm-0 " type="submit ">#3000 
+                        <span style=" color: #fd954e; ">Buy Now</span>
+                    </button>
+                </div>
+            </div>
+
+            <div>
+                <img src="images/no- return.jpg " alt="no-return " width="50% " class="img-fluid ">
+                <h3><span style="color: yellow">Business</span></h3>
+                <div class=" text-center ">
+                    <button class="item-btn btn-dark ml-2 my-2 my-sm-0 " type="submit ">#45000 
+                        <span style=" color: #fd954e; ">Buy Now</span>
+                    </button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!--------------------------------------------download section------------------------------------------->
+
+    <section class="downloads ">
+        <div class="container padding mt-4 ">
+            <div class="row text-center padding ">
+
+                <div class="col-xs-12 col-sm-6 col-md-4 ">
+                    <h1>3M</h1>
+                    <div class="mx-auto heading-line "></div>
+                    <h6>Download</h6>
+                    <p class="lead ">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo perferendis hic vel neque! Quam, autem.
+                    </p>
+                </div>
+
+                <div class="col-xs-12 col-sm-6 col-md-4 ">
+                    <h1>50K</h1>
+                    <div class="mx-auto heading-line "></div>
+                    <h6>Great Reviews</h6>
+                    <p class="lead ">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo perferendis hic vel neque! Quam, autem.
+                    </p>
+                </div>
+
+                <div class="col-xs-12 col-sm-6 col-md-4 ">
+                    <h1>4.9/5</h1>
+                    <div class="mx-auto heading-line "></div>
+                    <h6>Ratings</h6>
+                    <p class="lead ">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo perferendis hic vel neque! Quam, autem.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!---------------------------------------Best Seller section--------------------------------------->
+    <section class="best-selling-books ">
+
+        <div class="text-center py-5 ">
+            <h2 class="py-3 ">Best Sellers</h2>
+            <div class="mx-auto heading-line "></div>
+        </div>
+
+        <div class="container-fluid ">
+            <div>
+                <img src="images/transition-hour.jpg " alt="kuraku " width="50% " class="img-fluid ">
+                <h3><span style="color: yellow">Auto-Biography</span></h3>
+                <div class=" text-center ">
+                    <button class="item-btn btn-dark ml-2 my-2 my-sm-0 " type="submit ">#15000 
+                        <span style=" color: #fd954e; ">Buy Now</span>
+                    </button>
+                </div>
+            </div>
+
+            <div>
+                <img src="images/serial-serial.png" alt="children-of-viture " width="50% " class="img-fluid ">
+                <h3><span style="color: yellow">African Fiction</span></h3>
+                <div class=" text-center ">
+                    <button class="item-btn btn-dark ml-2 my-2 my-sm-0 " type="submit ">#2500 
+                        <span style=" color: #fd954e; ">Buy Now</span>
+                    </button>
+                </div>
+            </div>
+
+            <div>
+                <img src="images/righteous-mind.jpg " alt="christian " width="50% " class="img-fluid ">
+                <h3><span style="color: yellow">Self Help</span></h3>
+                <div class=" text-center ">
+                    <button class="item-btn btn-dark ml-2 my-2 my-sm-0 " type="submit ">#1200 
+                        <span style=" color: #fd954e; ">Buy Now</span>
+                    </button>
+                </div>
+            </div>
+
+            <div>
+                <img src="images/no-limit.jpg " alt="crazy-ideas " width="50% " class="img-fluid ">
+                <h3><span style="color: yellow">Journals</span></h3>
+                <div class=" text-center ">
+                    <button class="item-btn btn-dark ml-2 my-2 my-sm-0 " type="submit ">#6000 
+                        <span style=" color: #fd954e; ">Buy Now</span>
+                    </button>
+                </div>
+            </div>
+
+            <div>
+                <img src="images/road-less.jpg " alt="Digital " width=" 50% " class="img-fluid ">
+                <h3><span style="color: yellow">Motivational</span></h3>
+                <div class=" text-center ">
+                    <button class="item-btn btn-dark ml-2 my-2 my-sm-0 " type="submit ">#3500 
+                        <span style=" color: #fd954e; ">Buy Now</span>
+                    </button>
+                </div>
+            </div>
+
+            <div>
+                <img src="images/History.jpg " alt="no-return " width="50% " class="img-fluid ">
+                <h3><span style="color: yellow">History</span></h3>
+                <div class=" text-center ">
+                    <button class="item-btn btn-dark ml-2 my-2 my-sm-0 " type="submit ">#4000 
+                        <span style=" color: #fd954e; ">Buy Now</span>
+                    </button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!----------------------------------------New-Arrival section------------------------------------------>
+    <section class="available-books ">
+        <div class="text-center py-5 ">
+            <h2 class="py-3 ">New Arrivals</h2>
+            <div class="mx-auto heading-line "></div>
+        </div>
+
+        <marquee behavior=" " direction="right " class="new-arg ">
+            <div class="container-fluid2">
+                <div>
+                    <img src="images/politics.jpg " alt="Kuraku " width="50% " class="img-fluid ">
+                    <h3><span style="color: yellow">Politice</span></h3>
+                    <div class=" text-center ">
+                        <button class="item-btn btn-dark ml-2 my-2 my-sm-0 " type="submit ">#2000 
+                            <span style=" color: #fd954e; ">Buy Now</span>
+                        </button>
+                    </div>
+                </div>
+
+                <div>
+                    <img src="images/fun.jpeg " alt="child-virture " width="50% " class="img-fluid ">
+                    <h3><span style="color: yellow">Adventure</span></h3>
+                    <div class=" text-center ">
+                        <button class="item-btn btn-dark ml-2 my-2 my-sm-0 " type="submit ">#3000 
+                            <span style=" color: #fd954e; ">Buy Now</span>
+                        </button>
+                    </div>
+                </div>
+
+                <div>
+                    <img src="images/non-fiction.jpg " alt="christian " width="50% " class="img-fluid ">
+                    <h3><span style="color: yellow">Non-Fiction</span></h3>
+                    <div class=" text-center ">
+                        <button class="item-btn btn-dark ml-2 my-2 my-sm-0 " type="submit ">#4500 
+                            <span style=" color: #fd954e; ">Buy Now</span>
+                        </button>
+                    </div>
+                </div>
+
+                <div>
+                    <img src="images/poetry.jpg " alt="crazy-ideas " width="50% " class="img-fluid ">
+                    <h3><span style="color: yellow">Poetry</span></h3>
+                    <div class=" text-center ">
+                        <button class="item-btn btn-dark ml-2 my-2 my-sm-0 " type="submit ">#1500 
+                            <span style=" color: #fd954e; ">Buy Now</span>
+                        </button>
+                    </div>
+                </div>
+
+                <div>
+                    <img src="images/food-recipee.jpg " alt="Digital " width=" 50% " class="img-fluid ">
+                    <h3><span style="color: yellow">Food/Recipee</span></h3>
+                    <div class=" text-center ">
+                        <button class="item-btn btn-dark ml-2 my-2 my-sm-0 " type="submit ">#2500 
+                            <span style=" color: #fd954e; ">Buy Now</span>
+                        </button>
+                    </div>
+                </div>
+
+                <div>
+                    <img src="images/economy.jpg " alt="no-return " width="50% " class="img-fluid ">
+                    <h3><span style="color: yellow">Economy</span></h3>
+                    <div class=" text-center ">
+                        <button class="item-btn btn-dark ml-2 my-2 my-sm-0 " type="submit ">#6500 
+                            <span style=" color: #fd954e; ">Buy Now</span>
+                        </button>
+                    </div>
+                </div>
+
+
+            </div>
+        </marquee>
+    </section>
+
+    <!--------------------------------------testimony section------------------------------------------>
+
+    <div class="container-fluid1 padding ">
+        <div class="text-center py-5 ">
+            <h2 class="py-3 ">Testimonies</h2>
+            <div class="mx-auto heading-line "></div>
+        </div>
+        <div class="row welcome text-center ">
+            <div class="col-lg-12 ">
+                <marquee behavior=" " direction="left ">
+                    <h1 class="display-4 "><span style="color:#fd954e ">What People Think About Bookish</span> </h1>
+                </marquee>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid1 padding ">
+        <div class="row padding ">
+            <div class="col-lg-6 text-center ">
+                <img src="images/Ellipse 14.png " class="card-img-top img-fluid " style="width: 100px; " height="100px " />
+                <div class="textbox " style="background: #E8FAFF ">
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br /> Asperiores deserunt nobis ipsa praesentium sunt mollitia.<br /> Pariatur corporis quis magnam. Quia tenetur nostrum nihil
+                        <br />doloribus eos non quas dolorem! Dolor, corporis!
+                    </p>
+                    <hr>
+                    <h3> Bisi Chinwe<span>, Lagos</span></h3>
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg " x="0px " y="0px " width="24 " height="24 " viewBox="0 0 172 172 " style=" fill:#000000; "><g fill="none " fill-rule="nonzero " stroke="none " stroke-width="1 " stroke-linecap="butt
+                        " stroke-linejoin="miter " stroke-miterlimit="10 " stroke-dasharray=" " stroke-dashoffset="0 " font-family="none " font-weight="none " font-size="none " text-anchor="none " style="mix-blend-mode: normal "><path d="M0,172v-172h172v172z " fill="none
+                        "></path><g fill="#2eceff "><path d="M86,128.1185l48.9555,29.54817l-12.99317,-55.685l43.25083,-37.46733l-56.9535,-4.83033l-22.25967,-52.51733l-22.25967,52.51733l-56.9535,4.83033l43.25083,37.46733l-12.99317,55.685z "></path></g></g></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg " x="0px " y="0px " width="24 " height="24 " viewBox="0 0 172 172 " style=" fill:#000000; "><g fill="none " fill-rule="nonzero " stroke="none " stroke-width="1 " stroke-linecap="butt
+                        " stroke-linejoin="miter " stroke-miterlimit="10 " stroke-dasharray=" " stroke-dashoffset="0 " font-family="none " font-weight="none " font-size="none " text-anchor="none " style="mix-blend-mode: normal "><path d="M0,172v-172h172v172z " fill="none
+                        "></path><g fill="#2eceff "><path d="M86,128.1185l48.9555,29.54817l-12.99317,-55.685l43.25083,-37.46733l-56.9535,-4.83033l-22.25967,-52.51733l-22.25967,52.51733l-56.9535,4.83033l43.25083,37.46733l-12.99317,55.685z "></path></g></g></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg " x="0px " y="0px " width="24 " height="24 " viewBox="0 0 172 172 " style=" fill:#000000; "><g fill="none " fill-rule="nonzero " stroke="none " stroke-width="1 " stroke-linecap="butt
+                        " stroke-linejoin="miter " stroke-miterlimit="10 " stroke-dasharray=" " stroke-dashoffset="0 " font-family="none " font-weight="none " font-size="none " text-anchor="none " style="mix-blend-mode: normal "><path d="M0,172v-172h172v172z " fill="none
+                        "></path><g fill="#2eceff "><path d="M86,128.1185l48.9555,29.54817l-12.99317,-55.685l43.25083,-37.46733l-56.9535,-4.83033l-22.25967,-52.51733l-22.25967,52.51733l-56.9535,4.83033l43.25083,37.46733l-12.99317,55.685z "></path></g></g></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg " x="0px " y="0px " width="24 " height="24 " viewBox="0 0 172 172 " style=" fill:#000000; "><g fill="none " fill-rule="nonzero " stroke="none " stroke-width="1 " stroke-linecap="butt
+                        " stroke-linejoin="miter " stroke-miterlimit="10 " stroke-dasharray=" " stroke-dashoffset="0 " font-family="none " font-weight="none " font-size="none " text-anchor="none " style="mix-blend-mode: normal "><path d="M0,172v-172h172v172z " fill="none
+                        "></path><g fill="#2eceff "><path d="M86,128.1185l48.9555,29.54817l-12.99317,-55.685l43.25083,-37.46733l-56.9535,-4.83033l-22.25967,-52.51733l-22.25967,52.51733l-56.9535,4.83033l43.25083,37.46733l-12.99317,55.685z "></path></g></g></svg>
+                        <img src="https://img.icons8.com/android/24/000000/star.png " />
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-lg-6 display-none ">
+                <div class="row ">
+                    <div class="col-md-3 col-lg-3 ">
+                        <div class="card ">
+                            <img src="images/Ellipse 16.png " class="card-img-top img-fluid " style="width: 100px; " height="100px " />
+                            <h3>Lorem ipsum dolor sit amet.</h3>
+                        </div>
+                    </div>
+                    <div class="col-3 col-lg-3 ">
+                        <div class="card ">
+                            <img src="images/Ellipse 11.png " class="card-img-top img-fluid " style="width: 100px; " height="100px " />
+                            <h3>Lorem ipsum dolor sit amet.</h3>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-lg-3 ">
+                        <div class="card ">
+                            <img src="images/Ellipse 15.png " class="card-img-top img-fluid " style="width: 100px; " height="100px " />
+                            <h3>Lorem ipsum dolor sit amet.</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="row ">
+                    <div class="col-md-3 col-lg-3 ">
+                        <div class="card ">
+                            <img src="images/Ellipse 14.png " class="card-img-top img-fluid " style="width: 100px; " height="100px " />
+                            <h3>Lorem ipsum dolor sit amet.</h3>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-lg-3 ">
+                        <div class="card ">
+                            <img src="images/Ellipse 11.png " class="card-img-top img-fluid " style="width: 100px; " height="100px " />
+                            <h3>Lorem ipsum dolor sit amet.</h3>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-lg-3 ">
+                        <div class="card ">
+                            <img src="images/Ellipse 12.png " class="card-img-top img-fluid " style="width: 100px; " height="100px " />
+                            <h3>Lorem ipsum dolor sit amet.</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-----------------------------------------footer section------------------------------------------>
+    <footer>
+        <div class="container-fluid1 padding ">
+            <div class="row welcome text-center ">
+                <div class="col-lg-12 ">
+                    <h3 class="display-4 ">Say Hello To Us</h3>
+                </div>
+            </div>
+        </div>
+        <br /><br />
+        <div class="container-fluid1 padding ">
+            <div class="row text-center ml-2 ">
+                <div class="col-md-4 col-12 ">
+                    <img src="images/logo (3).png " alt="img " class="img-fluid " />
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi, quo modi corporis, repellat nisi vitae quae repellendus autem minus error, tempore soluta magni laboriosam sapiente libero a? Tempora doloribus, dolor commodi nihil ea porro obcaecati
+                        corporis, incidunt deleniti eveniet ratione?
+                    </p>
+                </div>
+                <div class="col-md-4 col-6 ">
+                    <p>Email: <em style="color: #fd954e; ">belrahj3@gmail.com</em></p>
+                    <p>Phone Number: <em style="color: #fd954e; ">+2348102180628</em></p>
+                    <div style="width: 80% ">
+                        <iframe width="100% " height="100 " frameborder="0 " scrolling="no " marginheight="0 " marginwidth="0 " src="https://maps.google.com/maps?width=100%25&amp;height=50&amp;hl=en&amp;q=Gesse1,%20birnin%20Kebbi+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed "
+                            class="map ">
+                        </iframe>
+                        <a href="# ">
+                            <span style="color: #fd954e; ">Locate Our Office Address</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-6 ">
+                    <div>
+                        <a href="https://web.facebook.com/mercy.kalu.777 " target="_blank " rel="noopener noreferrer ">
+                            <i class="fab fa-facebook-f fa-1x "></i><span style="color: blue; "> &nbsp; Facebook</span></i>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="http://twitter.com/iambelrah " target="_blank " rel="noopener noreferrer ">
+                            <i class="fab fa-twitter-square fa-1x "><span style="color: #bae7f5; ">Twitter</span></i>
+                        </a>
+
+                    </div>
+                    <div>
+                        <a href="http://github.com/belrah " target="_blank " rel="noopener noreferrer ">
+                            <i class="fab fa-github-square fa-1x " style="color:#000000 "> <span style="color: #ef93d0; ">Github</span></i>
+                        </a>
+                    </div>
+
+                    <div>
+                        <a href="https://stackexchange.com/users/18703451/belrah " target="_blank " rel="noopener noreferrer ">
+                            <i class="fab fa-stack-overflow fa-1x "></i><span style="color: red; ">&nbsp;StackOverflow</span></i>
+                        </a>
+                    </div>
+
+                    <div>
+                        <a href="https://www.linkedin.com/in/mercy-kalu-576b71198 " target="_blank " rel="noopener noreferrer ">
+                            <i class="fab fa-linkedin fa-1x "> <span style="color: #a7e2f4; ">Linkedin</span></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="foot-b text-center ">
+                <p class=" foot-p ">
+                    <img src="images/logo (3).png " alt="img " /> &copy; 2020. Made by &copy;<span style=" color: #fd954e; ">Belrah</span></p>
+
+            </div>
+        </div>
+    </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js " integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj " crossorigin="anonymous "></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js " integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN " crossorigin="anonymous "></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js " integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV " crossorigin="anonymous "></script>
+</body>
+
+</html>
