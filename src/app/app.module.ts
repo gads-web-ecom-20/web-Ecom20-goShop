@@ -9,7 +9,9 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
 import { MatGridListModule } from '@angular/material/grid-list';
+import {MatMenuModule} from '@angular/material/menu';
 import { SideMenuComponent } from './side-menu/side-menu.component';
+
 
 
 @NgModule({
@@ -25,7 +27,8 @@ import { SideMenuComponent } from './side-menu/side-menu.component';
     MatToolbarModule,
     MatIconModule,
     MatButtonModule,
-    MatGridListModule
+    MatGridListModule,
+    MatMenuModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

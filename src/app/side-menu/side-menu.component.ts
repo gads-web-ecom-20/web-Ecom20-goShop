@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-side-menu',
@@ -7,9 +7,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SideMenuComponent implements OnInit {
 
+  @Input()
+  get isMobileMenu(): boolean { return this._isMobileMenu; }
+  set isMobileMenu(isMobileMenu: boolean) {
+    this._isMobileMenu = isMobileMenu;
+  }
+  private _isMobileMenu = false;
+
   constructor() { }
 
   ngOnInit(): void {
+    console.log(this._isMobileMenu);
   }
 
 }
