@@ -1,0 +1,20 @@
+<mat-grid-list cols="3" rowHeight="100%" *ngIf="!isMobileMenu" >
+    <mat-grid-tile>Home</mat-grid-tile>
+    <mat-grid-tile>Stores</mat-grid-tile>
+    <mat-grid-tile>Products</mat-grid-tile>
+</mat-grid-list>
+
+<button mat-icon-button  [matMenuTriggerFor]="menu" *ngIf="isMobileMenu" class="menu-button" aria-label="menu button icon">
+    <mat-icon>menu</mat-icon>
+</button>
+<mat-menu #menu="matMenu">
+    <button mat-menu-item>
+      <span>Home</span>
+    </button>
+    <button mat-menu-item>
+      <span>Stores</span>
+    </button>
+    <button mat-menu-item>
+      <span>Products</span>
+    </button>
+  </mat-menu>
