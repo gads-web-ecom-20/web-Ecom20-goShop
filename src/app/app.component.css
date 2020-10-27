@@ -18,6 +18,8 @@ mat-toolbar {
 .login-button {
     width: 10%;
     text-align: right;
+    font-family: 'Poppins';
+    text-transform: uppercase;
 }
 
 .login-button span {
