@@ -11,6 +11,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatGridListModule } from '@angular/material/grid-list';
 import {MatMenuModule} from '@angular/material/menu';
 import { SideMenuComponent } from './side-menu/side-menu.component';
+import { VendorsComponent } from './vendors/vendors.component';
 
 
 
@@ -19,6 +20,7 @@ import { SideMenuComponent } from './side-menu/side-menu.component';
     AppComponent,
     HomeComponent,
     SideMenuComponent,
+    VendorsComponent,
   ],
   imports: [
     BrowserModule,
