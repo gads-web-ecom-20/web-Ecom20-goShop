@@ -115,20 +115,3 @@
 .second-part, .third-part {
     background-color: #E5E5E5;
 }
-
-.footer {
-    width: 100%;
-    height: 130px;
-    background: #A97527;
-    color: #fff;
-    text-align: center;
-}
-
-.footer hr {
-    margin: 0;
-    padding-bottom: 70px;
-}
-
-.footer div {
-    padding-top: 10px;
-}
