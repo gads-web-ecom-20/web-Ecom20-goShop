@@ -15,3 +15,7 @@ mat-grid-tile, .mat-menu-item {
     border-right: 1px solid;
     border-left: 1px solid;
 }
+
+mat-grid-tile *:focus {
+    outline: none;
+}
