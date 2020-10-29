@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "goshop-gads": {
+      "hosting": {
+        "goShop": [
+          "goshop-gads"
+        ]
+      }
+    }
+  }
+}
