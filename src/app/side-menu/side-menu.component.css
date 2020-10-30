@@ -11,11 +11,14 @@ mat-grid-tile, .mat-menu-item {
     text-align: center;
 }
 
-.mat-grid-tile .mat-figure {
+::ng-deep .mat-grid-tile .mat-figure {
     border-right: 1px solid;
     border-left: 1px solid;
 }
 
-mat-grid-tile *:focus {
-    outline: none;
+
+
+::ng-deep .mat-grid-tile .mat-figure:focus, ::ng-deep .mat-grid-tile:focus {
+    outline-style: none !important;
 }
+
