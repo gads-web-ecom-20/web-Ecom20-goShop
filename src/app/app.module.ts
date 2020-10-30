@@ -12,6 +12,7 @@ import { MatGridListModule } from '@angular/material/grid-list';
 import {MatMenuModule} from '@angular/material/menu';
 import { SideMenuComponent } from './side-menu/side-menu.component';
 import { VendorsComponent } from './vendors/vendors.component';
+import { ProductsComponent } from './products/products.component';
 
 
 
@@ -21,6 +22,7 @@ import { VendorsComponent } from './vendors/vendors.component';
     HomeComponent,
     SideMenuComponent,
     VendorsComponent,
+    ProductsComponent,
   ],
   imports: [
     BrowserModule,
