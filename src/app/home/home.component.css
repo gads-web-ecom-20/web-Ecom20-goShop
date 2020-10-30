@@ -115,3 +115,16 @@
 .second-part, .third-part {
     background-color: #E5E5E5;
 }
+
+@media only screen and (max-width: 768px) {
+    .intro-col {
+        width: 45%;
+    }
+    .description {
+        padding-left: 10%;
+        font-size: 1.2em;
+    }
+    .button {
+        width: 45%;
+    }
+}
