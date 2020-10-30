@@ -1,0 +1,31 @@
+
+.login-container{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    padding: 5%;
+    min-height: 75%;
+    max-width: 600px;
+}
+
+
+.form-field{
+    display: block
+}
+
+.button {
+    padding: 5px;
+    border: 1px solid #A97527;
+    background-color: #A97527;
+    font-size: x-large;
+    color: #fff;
+    margin: 5px;
+    font-family: 'Source Serif Pro';
+    font-size: large;
+    display: inline-block;
+    width: 40%;
+}
+
+::ng-deep .form-field:focus {
+    outline-style: none !important;
+} 
