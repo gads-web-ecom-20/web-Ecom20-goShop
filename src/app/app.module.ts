@@ -10,8 +10,10 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
 import { MatGridListModule } from '@angular/material/grid-list';
 import {MatMenuModule} from '@angular/material/menu';
+import { ReactiveFormsModule } from '@angular/forms';
 import { SideMenuComponent } from './side-menu/side-menu.component';
 import { VendorsComponent } from './vendors/vendors.component';
+import { ProductsComponent } from './products/products.component';
 
 
 
@@ -21,6 +23,7 @@ import { VendorsComponent } from './vendors/vendors.component';
     HomeComponent,
     SideMenuComponent,
     VendorsComponent,
+    ProductsComponent,
   ],
   imports: [
     BrowserModule,
@@ -31,6 +34,7 @@ import { VendorsComponent } from './vendors/vendors.component';
     MatButtonModule,
     MatGridListModule,
     MatMenuModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
