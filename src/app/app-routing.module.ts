@@ -1,3 +1,4 @@
+import { RegisterationComponent } from './registeration/registeration.component';
 import { LoginComponent } from './login/login.component';
 import { ProductsComponent } from './products/products.component';
 import { VendorsComponent } from './vendors/vendors.component';
@@ -10,6 +11,7 @@ const routes: Routes = [
   {path: 'stores', component: VendorsComponent },
   {path: 'products', component: ProductsComponent },
   {path: 'login', component: LoginComponent },
+  {path: 'registeration', component: RegisterationComponent },
   {path: '**', redirectTo: '/'}
 ];
 
