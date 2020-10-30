@@ -18,6 +18,7 @@ import { SideMenuComponent } from './side-menu/side-menu.component';
 import { VendorsComponent } from './vendors/vendors.component';
 import { ProductsComponent } from './products/products.component';
 import { LoginComponent } from './login/login.component';
+import { RegisterationComponent } from './registeration/registeration.component';
 
 
 
@@ -29,6 +30,7 @@ import { LoginComponent } from './login/login.component';
     VendorsComponent,
     ProductsComponent,
     LoginComponent,
+    RegisterationComponent,
   ],
   imports: [
     BrowserModule,
