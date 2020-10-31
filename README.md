@@ -17,3 +17,7 @@ The idea behind **goShop** is to:
 1. Python language will be used for the back end adopting Django framework using NoSQL web services and MongoDB as the non relational database
 1. Java will be the programming language used to develop the Android App version of the project.
 1. Github will be used as the version control to be used for the team project collaboration.
+
+## Demo video
+
+[![Demo goshop](images/goshop-m.png)](https://www.loom.com/share/2597cc1b9f7042f396af7eb7f3c2d8fc)
